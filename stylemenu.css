@@ -1,0 +1,1024 @@
+html 
+{
+    font-family:sans-serif;
+}
+@media screen and (max-width: 768px)
+{
+    html 
+    {
+        font-family: sans-serif;
+    }
+    header
+    {
+        display: flex;
+        padding-bottom: 15px;
+        padding-top: 10px;
+        justify-content: center;
+    }
+    #logosite
+    {
+        width: 170px;
+        height: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fleche
+    {
+        padding-left: 10px;
+        padding-top: 5px;
+        font-size: 1em;
+    }
+    a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .photo1
+    {
+        width: 100%;
+        object-fit: cover;
+    }
+    .container2
+    {
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding-left: 15px;
+        background-color: #F4F4F4;
+        margin-top: -50px;
+        padding-bottom: 40px;
+        display: block;
+	    overflow: hidden;
+	    position: relative;
+	    table-layout: fixed;
+    }
+    .titreresto
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .titre
+    {
+        font-size: 1.5em;
+        font-weight:bold;
+        font-family: 'shrikhand';
+        font-style: italic;
+        margin-left: 7px;
+        margin-top: 25px;
+    }
+    .coeur
+    {
+        font-size: 1.3em;
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+    .entrée
+    {
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+    h4 
+    {
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    hr 
+    {
+        border: 2px solid #99E2D0;
+        width: 37px;
+        justify-content: left;
+        position: absolute;
+        margin-top: -25px;
+    }
+    .e1
+    {
+        font-size: 1em;
+        font-weight: bold;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .sousentrée
+    {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .e2
+    {
+        font-size: 0.8em;
+        font-weight: 200;
+        padding-left: 3px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .prix
+    {
+        font-size: 0.9em;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+    .p1
+    {
+        font-size: 1em;
+        font-weight: bold;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .p2
+    {
+        font-size: 0.8em;
+        font-weight: 200;
+        padding-left: 3px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .sousplat
+    {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .plat 
+    {
+        margin-bottom: 40px;
+        cursor: pointer;
+        
+    }
+    .dessert
+    {
+        cursor: pointer;
+    }
+    .listmenu
+    {
+        border-radius: 13px;
+        background-color: white;
+        margin-right: 20px;
+        padding: 10px 5px 10px 5px;
+        box-shadow: 4px 5px 10px #D5D4D6;
+        margin-bottom: 15px;
+        position: relative;
+        overflow: hidden;
+    }
+    .listmenu:hover i
+    {
+        animation: rotation 1s;
+    }
+    .listmenu:hover .validé
+    {
+        animation: translate 1s;
+        display: flex;
+        animation-fill-mode: forwards;
+        transform-origin: right;
+    }
+    .listmenu .validé 
+    {
+        animation: off 0.3s;
+        animation-fill-mode: forwards;
+        transform-origin: right;
+    }
+    .listmenu:hover .prix 
+    {
+        animation: prix 0.3s;
+        animation-fill-mode: forwards;
+    }
+    .listmenu .prix
+    {
+        animation: prixoff 1s;
+    }
+    .listmenu:hover .prix 
+    {
+        animation: prix 1s;
+        animation-fill-mode: forwards;
+    }
+    .listmenu:hover .prix
+    {
+        animation: prix 1s;
+        animation-fill-mode: forwards;
+    }
+    .d1
+    {
+        font-size: 1em;
+        font-weight: bold;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .d2
+    {
+        font-size: 0.8em;
+        font-weight: 200;
+        padding-left: 3px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .sousdessert
+    {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .validé
+    {
+        display: flex;
+        width: 60px;
+        height: 100%;
+        background: #99E2D0;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        border-radius: 13px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .validé i 
+    {
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .commander
+    {
+        border-radius: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: linear-gradient(to bottom right, #FF79DA , #9356DC);
+        font-size: 0.9em;
+        color: white;
+        margin-top: 40px;
+        text-align: center;
+        width: 30%;
+        margin-left: 30%;
+        cursor: pointer;
+        box-shadow: 4px 5px 10px #D5D4D6;
+
+    }
+    footer 
+    {
+        background-color: #282828;
+        color: white;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .footer
+    {
+        font-family: 'shrikhand';
+        font-size: 1.1em;
+        font-style: italic;
+        font-weight: bold;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+    .text3
+    {
+       display: flex;
+    }
+    .text4 
+    {
+        font-size: 0.9em;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .text4 a
+    {
+        text-decoration: none;
+        color: white;
+    }
+    .text5
+    {
+        font-size: 0.9em;
+        padding-left: 17px;
+    }
+    .text6
+    {
+        font-size: 0.9em;
+        padding-left: 10px;
+    }
+}
+@media all and (min-width:769px) and (max-width:991px)
+{
+    header
+    {
+        display: flex;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+    #logosite
+    {
+        width: 180px;
+        height: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fleche
+    {
+        padding-left: 10px;
+        padding-top: 5px;
+        font-size: 1.3em;
+        color: black;
+    }
+    .photo1
+    {
+        width: 100%;
+    }
+    .container2
+    {
+        border-radius: 35px;
+        padding-left: 15px;
+        background-color: #F4F4F4;
+        margin-top: -70px;
+        padding-bottom: 40px;
+        display: block;
+	    overflow: hidden;
+	    position: relative;
+	    table-layout: fixed;
+    }
+    .titreresto
+    {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .titre
+    {
+        font-size: 2.2em;
+        font-weight:bold;
+        font-family: 'shrikhand';
+        font-style: italic;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .coeur
+    {
+        font-size: 2.2em;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+    .entrée
+    {
+        margin-bottom: 40px;
+    }
+    h4 
+    {
+        font-weight: 300;
+        font-size: 1.3em;
+    }
+    hr 
+    {
+        border: 2px solid #99E2D0;
+        width: 40px;
+        justify-content: left;
+        position: absolute;
+        margin-top: -25px;
+    }
+    .e1
+    {
+        font-size: 1.1em;
+        font-weight: bold;
+        padding-bottom: 4px;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .sousentrée
+    {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .e2
+    {
+        font-size: 1em;
+        font-weight: 200;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .prix
+    {
+        font-size: 1em;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    .p1
+    {
+        font-size: 1.1em;
+        font-weight: bold;
+        padding-bottom: 5px;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .p2
+    {
+        font-size: 1em;
+        font-weight: 200;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .sousplat
+    {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .plat 
+    {
+        margin-bottom: 40px;
+    }
+    .listmenu
+    {
+        border-radius: 13px;
+        background-color: white;
+        margin-right: 50px;
+        padding: 10px 5px 10px 5px;
+        box-shadow: 4px 5px 10px #D5D4D6;
+        margin-bottom: 15px;
+        margin-left: 40px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .listmenu:hover i
+    {
+        animation: rotation 1s;
+    }
+    .listmenu:hover .validé
+    {
+        animation: translate 1s;
+        display: flex;
+        animation-fill-mode: forwards;
+        transform-origin: right;
+    }
+    .listmenu .validé 
+    {
+        animation: off 0.3s;
+        animation-fill-mode: forwards;
+        transform-origin: right;
+    }
+    .listmenu:hover .prix 
+    {
+        animation: prix 0.3s;
+        animation-fill-mode: forwards;
+    }
+    .listmenu .prix
+    {
+        animation: prixoff 1s;
+    }
+    .listmenu:hover .prix 
+    {
+        animation: prix 1s;
+        animation-fill-mode: forwards;
+    }
+    .listmenu:hover .prix
+    {
+        animation: prix 1s;
+        animation-fill-mode: forwards;
+    }
+    .validé
+    {
+        display: flex;
+        width: 60px;
+        height: 100%;
+        background: #99E2D0;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        border-radius: 13px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .validé i 
+    {
+        color: white;
+        font-size: 1.5em;
+    }
+    .d1
+    {
+        font-size: 1.1em;
+        font-weight: bold;
+        padding-bottom: 5px;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .d2
+    {
+        font-size: 1em;
+        font-weight: 200;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .sousdessert
+    {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .commander
+    {
+        border-radius: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: linear-gradient(to bottom right, #FF79DA , #9356DC);
+        font-size: 0.9em;
+        color: white;
+        margin-top: 40px;
+        text-align: center;
+        width: 20%;
+        justify-content: center;
+        margin-left: 40%;
+    }
+    footer 
+    {
+        background-color: #282828;
+        color: white;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .footer
+    {
+        font-family: 'shrikhand';
+        font-size: 1.3em;
+        font-style: italic;
+        font-weight: bold;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+    .text3
+    {
+       display: flex;
+    }
+    .text4 
+    {
+        font-size: 1em;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .text4 a
+    {
+        text-decoration: none;
+        color: white;
+    }
+    .text5
+    {
+        font-size: 1em;
+        padding-left: 17px;
+    }
+    .text6
+    {
+        font-size: 1em;
+        padding-left: 10px;
+    }
+
+}
+@media screen and (min-width: 992px)
+{
+    header
+    {
+        display: flex;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+    #logosite
+    {
+        width: 180px;
+        height: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fleche
+    {
+        padding-left: 10px;
+        padding-top: 5px;
+        font-size: 1.3em;
+        color: black;
+    }
+    .photo1
+    {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+    .container2
+    {
+        border-radius: 35px;
+        padding-left: 15px;
+        background-color: #F4F4F4;
+        margin-top: -80px;
+        padding-bottom: 40px;
+        display: block;
+	    overflow: hidden;
+	    position: relative;
+	    table-layout: fixed;
+    }
+    .titreresto
+    {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .titre
+    {
+        font-size: 2.2em;
+        font-weight:bold;
+        font-family: 'shrikhand';
+        font-style: italic;
+        margin-left: 4%;
+        margin-top: 30px;
+    }
+    .coeur
+    {
+        font-size: 2.2em;
+        margin-right:6%;
+        margin-top: 30px;
+    }
+    .entrée
+    {
+        margin-bottom: 40px;
+    }
+    h4 
+    {
+        font-weight: 300;
+        font-size: 1.3em;
+    }
+    hr 
+    {
+        border: 2px solid #99E2D0;
+        width: 37px;
+        justify-content: left;
+        position: absolute;
+        margin-top: -25px;
+    }
+    .listmenu
+    {
+        border-radius: 13px;
+        background-color: white;
+        margin-right: 50px;
+        padding: 10px 5px 10px 5px;
+        box-shadow: 4px 5px 10px #D5D4D6;
+        margin-bottom: 15px;
+        margin-left: 40px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .listmenu:hover i
+    {
+        animation: rotation 1s;
+    }
+    .listmenu:hover .validé
+    {
+        animation: translate 1s;
+        display: flex;
+        animation-fill-mode: forwards;
+        transform-origin: right;
+    }
+    .listmenu .validé 
+    {
+        animation: off 0.3s;
+        animation-fill-mode: forwards;
+        transform-origin: right;
+    }
+    .listmenu:hover .prix 
+    {
+        animation: prix 0.3s;
+        animation-fill-mode: forwards;
+    }
+    .listmenu .prix
+    {
+        animation: prixoff 1s;
+    }
+    .listmenu:hover .prix 
+    {
+        animation: prix 1s;
+        animation-fill-mode: forwards;
+    }
+    .listmenu:hover .prix
+    {
+        animation: prix 1s;
+        animation-fill-mode: forwards;
+    }
+    .validé
+    {
+        display: flex;
+        width: 60px;
+        height: 100%;
+        background: #99E2D0;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        border-radius: 13px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .validé i 
+    {
+        color: white;
+        font-size: 1.5em;
+    }
+    .e1
+    {
+        font-size: 1.1em;
+        font-weight: bold;
+        padding-bottom: 4px;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .sousentrée
+    {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .e2
+    {
+        font-size: 1em;
+        font-weight: 200;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .prix
+    {
+        font-size: 1em;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    .p1
+    {
+        font-size: 1.1em;
+        font-weight: bold;
+        padding-bottom: 5px;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .p2
+    {
+        font-size: 1em;
+        font-weight: 200;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .sousplat
+    {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .plat 
+    {
+        margin-bottom: 40px;
+    }
+    .d1
+    {
+        font-size: 1.1em;
+        font-weight: bold;
+        padding-bottom: 5px;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .d2
+    {
+        font-size: 1em;
+        font-weight: 200;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .sousdessert
+    {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .commander
+    {
+        border-radius: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: linear-gradient(to bottom right, #FF79DA , #9356DC);
+        font-size: 0.9em;
+        color: white;
+        margin-top: 40px;
+        text-align: center;
+        width: 20%;
+        justify-content: center;
+        margin-left: 40%;
+    }
+    footer 
+    {
+        background-color: #282828;
+        color: white;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .footer
+    {
+        font-family: 'shrikhand';
+        font-size: 1.3em;
+        font-style: italic;
+        font-weight: bold;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+    .text3
+    {
+        display: flex;
+    }
+    .text4 
+    {
+        font-size: 1em;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .text4 a
+    {
+        text-decoration: none;
+        color: white;
+    }
+    .text5
+    {
+        font-size: 1em;
+        padding-left: 17px;
+     }
+    .text6
+    {
+        font-size: 1em;
+        padding-left: 10px;
+    }
+}
+.c1, .c2, .c3, .c4, .c5, .c6,.c7, .c8, .c9, .c10
+{
+    -webkit-animation:defilement 1s 0.5s linear backwards;
+    animation:defilement 1s 0.5s linear backwards;
+    transform-origin: right;
+}
+.c2
+{
+    -webkit-animation-delay:0.75s;
+}
+.c3
+{
+    -webkit-animation-delay:1s;
+}
+.c4
+{
+    -webkit-animation-delay:1.25s;
+}
+.c5
+{
+    -webkit-animation-delay:1.5s;
+}
+.c6
+{
+    -webkit-animation-delay:1.75s;
+}
+.c7
+{
+    -webkit-animation-delay:2s;
+}
+.c8
+{
+    -webkit-animation-delay:2.25s;
+}
+.c9
+{
+    -webkit-animation-delay:2.5s;
+}
+.c10
+{
+    -webkit-animation-delay:2.75s;
+}
+.listmenu:hover .sousentrée
+{
+    animation: listmenu 0.8s;
+    animation-fill-mode: forwards;
+}
+.listmenu:hover .sousplat
+{
+    animation: listmenu 0.8s;
+    animation-fill-mode: forwards;
+}
+.listmenu:hover .sousdessert
+{
+    animation: listmenu 0.8s;
+    animation-fill-mode: forwards;
+}
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes translate {
+    0%{
+        transform: translateX(60px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+
+}
+@keyframes off {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(60px);
+        display: none;
+    }
+}
+/*
+@keyframes prix {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-65px);
+    }
+}
+@keyframes prixoff {
+    0%{
+        transform: translateX(-65px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+*/
+@keyframes defilement {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+  
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+  @keyframes listmenu {
+    0%{
+        margin-right: 0px;
+    }
+    100%{
+        margin-right: 60px;
+    }
+    
+}  

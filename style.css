@@ -130,6 +130,12 @@ html
         margin-top: 30px;
         margin-bottom: 40px;
         cursor: pointer;
+        -webkit-box-shadow: 1px 1px 6px 0px grey;
+    }
+    .boutonexplo:hover
+    {
+        background: linear-gradient(160deg,#ff88de,#9b63df);
+        -webkit-box-shadow: 1px 1px 11px 0px grey;
     }
     .menu
     {
@@ -376,6 +382,12 @@ html
         margin-bottom: 40px;
         margin-left: 32%;
         margin-right: 32%;
+        -webkit-box-shadow: 1px 1px 6px 0px grey;
+    }
+    .boutonexplo:hover
+    {
+        background: linear-gradient(160deg,#ff88de,#9b63df);
+        -webkit-box-shadow: 1px 1px 11px 0px grey;
     }
     h2 
     {
@@ -625,15 +637,19 @@ html
         border-radius: 25px;
         padding-top: 15px;
         padding-bottom: 15px;
-        background: linear-gradient(to bottom right, #FF79DA , #9356DC);
-        column-gap: 70px;
+        background: linear-gradient(160deg, #FF79DA , #9356DC);
         font-size: 0.9em;
         color: white;
         margin-top: 30px;
         margin-bottom: 40px;
         margin-left: 42%;
         margin-right: 42%;
-
+        -webkit-box-shadow: 1px 1px 6px 0px grey;
+    }
+    .boutonexplo:hover
+    {
+        background: linear-gradient(160deg,#ff88de,#9b63df);
+        -webkit-box-shadow: 1px 1px 11px 0px grey;
     }
     .container3
     {
@@ -835,8 +851,7 @@ html
         font-size: 0.9em;
         padding-left: 10px;
     }
-
-}
+}    
 @keyframes logocoeur {
     0% {
         opacity: 0;
@@ -845,4 +860,3 @@ html
         opacity: 1;
     }
 }
-
